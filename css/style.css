@@ -1,0 +1,422 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+    outline: none;
+}
+html{
+  font-size: 10px;
+  overflow-x: hidden;
+}
+.center-div{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+ /* banner section start */
+ .banner{
+     width: 100%;
+     background: #0C0F38;
+     padding-bottom: 30px;
+ }
+ .banner nav{
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     padding: 10px 10px;
+ }
+ .banner nav .logo{
+     width: 15%;
+ }
+ .banner nav .navigation{
+     color: #fff;
+     list-style: none;
+     display: flex;
+ }
+ .banner nav .navigation li{
+     padding: 20px;
+     font-size: 2rem;
+     cursor: pointer;
+     transition: 1s;
+     transition-property: color;
+ }
+ .banner nav .navigation .active{
+     color: #FDD430;
+ }
+.accordion{
+    width: 20%;
+    text-align: right;
+    color: #fff;
+    position: absolute;
+    top:5%;
+    right: 5%;
+    display: none;
+}
+.accordion input{
+    display: none;
+}
+.accordion .fa{
+    font-size: 3rem;
+    cursor: pointer;
+    color: #FDD430;
+}
+.accordion .tab-content{
+    font-size: 2rem;
+    transition: 1s;
+    width: 100%;
+    display: none;
+}
+.accordion .tab-content p{
+    cursor: pointer;
+    margin-left: 20px;
+    line-height: 40px;
+}
+.accordion .tab-content p:hover{
+    color: #FDD430;
+}
+.accordion .tab:checked ~ .tab-content{
+    display:block ;
+}
+
+
+
+ .banner .two-section{
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     margin-top: 50px;
+     overflow: hidden;
+ }
+ .banner .two-section .box{
+     width: 45%;
+     color: #fff;
+     padding: 1%;
+ }
+ .banner .two-section .img{
+       text-align: right;
+ }
+ 
+ .banner .two-section .text h1{
+     font-size: 7rem;
+ }
+ .banner .two-section .text h3{
+     font-size: 4rem;
+     margin: 15px 0px;
+     color: #FDD430;
+ }
+ .banner .two-section .text p{
+     font-size: 2rem;
+     line-height: 30px;
+ }
+ .banner .two-section .text button{
+     padding: 15px 35px;
+     margin-top: 30px;
+     border: none;
+     font-size: 2rem;
+     transition: 1s;
+     transition-property: background, color;
+
+ }
+ .banner .two-section .text button:hover{
+     background: black;
+     color:#fff;
+ }
+
+
+ .banner .two-section .img img{
+     width: 100%;
+    
+ }
+ .banner nav ul li:hover{
+   color: #FDD430;
+ }
+ /* banner section ends */
+
+ .whats-new{
+     width: 100%;
+     text-align: center;
+     padding: 5% 1%;
+ }
+ .whats-new h1{
+     color: #0C0F38;
+     font-size: 5rem;
+     letter-spacing: 5px;
+ }
+ .whats-new img{
+     width: 50%;
+     margin: 30px 0px;
+ }
+ .whats-new p{
+     color: #0C0F38;
+     font-size: 2rem;
+     line-height: 35px;
+ }
+ .whats-new button{
+     color: #fff;
+     background: black;
+     border: none;
+     font-size: 1.8rem;
+     padding: 15px 40px;
+     margin-top: 30px;
+     transition: 1s;
+     transition-property: background;
+     cursor: pointer;
+ }
+ .whats-new button:hover{
+     background: #0C0F38;
+ }
+
+/* .whats-new section ends */
+
+/* best services section start */
+
+.best-services{
+    width: 100%;
+    text-align: center;
+    background: #0C0F38;
+    padding: 5% 2%;
+}
+.best-services .heading{
+    font-size: 5rem;
+    font-weight: 900;
+    color: #0C0F38;
+    letter-spacing: 5px;
+    color: #fff;
+}
+.best-services .heading ~ p{
+    font-size: 2rem;
+    color: #fff;
+    margin: 30px 0px;
+}
+.best-services .six-boxes{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.best-services .six-boxes .box{
+  width: 25%;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  padding: 5% 2%;
+  color: #fff;
+  margin-top: 30px;
+  transition: 1s;
+  transition-property: background;
+}
+.best-services .six-boxes .box:hover{
+ background: #8308EB;
+ cursor: pointer;
+}
+
+
+.best-services .six-boxes .box img{
+    width: 25%;
+    background: #fff;
+    padding: 3%;
+    border-radius: 100%;
+}
+.best-services .six-boxes .box h1{
+    font-size: 3rem;
+    margin: 20px 0px;
+}
+.best-services .six-boxes .box p{
+    font-size: 1.8rem;
+}
+.best-services button{
+    background:#fff;
+    color: #0C0F38;
+    padding: 15px 45px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 2rem;
+    margin-top: 50px;
+    border: none;
+    transition-duration: 1s;
+    transition-property:background,color ;
+}
+.best-services button:hover{
+   background: #8308EB;
+   color: #fff;
+}
+
+/* best services section ends */
+
+/* three section start */
+.three-section{
+    text-align: center;
+    padding: 5% 1%;
+}
+.three-section h1{
+    font-weight: 900;
+    font-size: 4rem;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #0C0F38;
+}
+.three-section P{
+    font-size: 1.8rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.three-section .three-box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.three-section .three-box .box{
+    width: 28%;
+    padding: 3% 1%;
+    box-shadow: 0px 5px 7px 0px grey;
+    border-radius: 20px;
+    transition: .5s ease-out;
+    cursor: pointer;
+}
+.three-section .three-box .box h3{
+    font-size: 2rem;
+    margin: 20px 0px;
+}
+.three-section .three-box .box p{
+    line-height: 30px;
+}
+.three-section .three-box .box button{
+    padding: 15px 35px;
+    background: black;
+    color: #FFd;
+    border: none;
+    font-size: 1.5rem;
+    transition-property: background;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.three-section .three-box .box button:hover{
+    background: #8308EB;
+}
+/* three section ends */
+
+/* form section start */
+
+.form-section{
+    width: 100%;
+    background: #0C0F38;
+    color: #fff;
+    text-align: center;
+    margin-top: 150px;
+}
+.form-section .form{
+    width: 35%;
+    margin: 0 auto;
+    background: #0C0F38;  
+    padding: 2% 2%;
+    position: relative;
+    top: -100px;
+    border-top-left-radius:15px ;
+    border-top-right-radius: 15px;
+} 
+.form-section .form input{
+    width:95%;
+    border: none;
+    border-radius:12px;
+    padding:10px;
+    margin-top: 20px;
+    height: 30px;
+}
+
+::placeholder{
+    font-size: 1.8rem;
+}
+.form-section .form textarea{
+    width: 95%;
+    border: none;
+    border-radius: 12px;
+    height: 60px;
+    margin-top: 20px;
+    padding: 10px;
+}
+.form-section .form button{
+    background: #fff;
+    border: none;
+    color: #F24259;
+    width: 40%;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 30px;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.form-section .text{
+    position: relative;
+    top: -60px;
+}
+
+.form-section .text h1{
+    font-size: 7rem;
+    letter-spacing: 5px;
+    font-weight: 900;
+}
+.form-section .text h3{
+    font-size: 4rem;
+}
+.form-section .text p{
+    font-size: 2rem;
+    line-height: 30px;
+    margin-top: 15px;
+}
+
+/* form section ends */
+
+footer{
+    padding:15px;
+    font-size: 2rem;
+    text-align: center
+}
+
+/* media queary start */
+@media only screen and (max-width:1024px){
+
+    .best-services .six-boxes .box{
+        width: 40%;
+    }
+    .banner .two-section .box{
+        width: 100%;
+        padding: 10%;
+        text-align: center;
+
+    }
+
+}
+@media only screen and (max-width:768px){
+
+    .banner .two-section .box{
+        width: 100%;
+        padding: 10%;
+        text-align: center;
+    }
+    .banner nav .navigation li{
+        display: none;
+    }
+    .accordion{
+        display: block;
+    }
+
+    .best-services .six-boxes .box{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .three-section .three-box .box{
+        width: 80%;
+        margin:0 auto ;
+        margin-top: 50px;
+    }
+    .form-section{
+        padding: 2%;
+    }
+
+}
+
