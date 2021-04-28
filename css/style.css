@@ -390,6 +390,11 @@ footer{
 
 }
 @media only screen and (max-width:768px){
+    
+    .banner nav .logo{
+        margin-top:20px;
+    }
+
 
     .banner .two-section .box{
         width: 100%;
